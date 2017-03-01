@@ -8,21 +8,21 @@ classes:
 - cluster.mk22_lab_advanced.stacklight.client
 parameters:
   _param:
-    cluster_domain: mk22-lab-advanced.local
+    cluster_domain: vagrant.vm
     cluster_name: mk22_lab_advanced
     cluster_public_host: _
 
     # fuel service addresses
-    fuel_config_address: 172.16.10.100
+    fuel_config_address: 192.168.200.107
 
     # openstack service addresses
-    openstack_proxy_address: 172.16.10.121
-    openstack_proxy_node01_address: 172.16.10.121
+    openstack_proxy_address: 192.168.200.10
+    openstack_proxy_node01_address: 192.168.200.109
 
-    openstack_control_address: 172.16.10.254
-    openstack_control_node01_address: 172.16.10.101
-    openstack_control_node02_address: 172.16.10.102
-    openstack_control_node03_address: 172.16.10.103
+    openstack_control_address: 192.168.200.11
+    openstack_control_node01_address: 192.168.200.101
+    openstack_control_node02_address: 192.168.200.102
+    openstack_control_node03_address: 192.168.200.103
 
     openstack_database_address: ${_param:openstack_control_address}
     openstack_database_node01_address: ${_param:openstack_control_node01_address}
