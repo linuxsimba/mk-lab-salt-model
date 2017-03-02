@@ -20,6 +20,17 @@ parameters:
     opencontrail_compute_gateway: 192.168.210.1
     opencontrail_compute_iface: eth2
   linux:
+    system:
+      kernel:
+          type: generic
+          headers: true
+          version: 4.4.0-42
+          extra: true
+        repo:
+          tcpcloud_opencontrail:
+            source: "deb [arch=amd64] http://apt.tcpcloud.eu/nightly/ trusty oc30"
+            architectures: amd64
+            key_url: "http://apt.tcpcloud.eu/public.gpg"
     network:
       interface:
         eth2:

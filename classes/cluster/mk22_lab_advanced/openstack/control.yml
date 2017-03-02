@@ -42,6 +42,14 @@ parameters:
       package:
         python-msgpack:
           version: latest
+			package:
+        python-kafka:
+          version: '1.0.1-0contrail1'
+      repo:
+        tcpcloud_opencontrail:
+          source: "deb [arch=amd64] http://apt.tcpcloud.eu/nightly/ trusty oc30"
+          architectures: amd64
+          key_url: "http://apt.tcpcloud.eu/public.gpg"
   keepalived:
     cluster:
       instance:
