@@ -3,6 +3,7 @@ classes:
 - system.linux.system.repo.mos9
 - system.nova.compute.cluster
 - system.opencontrail.compute.cluster
+- system.heka.alarm.openstack_compute
 - service.opencontrail.compute.cluster
 - cluster.mk22_lab_advanced
 parameters:
