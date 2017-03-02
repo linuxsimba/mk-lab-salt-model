@@ -146,7 +146,7 @@ parameters:
           - cmp01
           - cmp01.${_param:cluster_domain}
         cmp02:
-          address: 192.168.200.105
+          address: 192.168.200.106
           names:
           - cmp02
           - cmp02.${_param:cluster_domain}

@@ -13,6 +13,7 @@ classes:
 - system.keystone.client.service.aodh
 - system.keystone.client.service.ceilometer
 - system.keystone.client.service.nova21
+- system.keystone.client.service.keystone3
 - system.mysql.client.single
 - system.reclass.storage.system.openstack_control_cluster
 - system.reclass.storage.system.openstack_compute_multi
@@ -24,7 +25,7 @@ parameters:
   _param:
     reclass_data_repository: "https://github.com/linuxsimba/mk-lab-salt-model.git"
     reclass_data_revision: reclass-system-salt-model
-    reclass_config_master: 192.168.200.109
+    reclass_config_master: 192.168.200.107
     single_address: 192.168.200.20
     salt_master_host: 127.0.0.1
     salt_master_base_environment: prd
