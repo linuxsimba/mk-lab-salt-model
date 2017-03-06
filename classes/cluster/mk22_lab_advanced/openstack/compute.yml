@@ -5,6 +5,7 @@ classes:
 - system.opencontrail.compute.cluster
 - system.heka.alarm.openstack_compute
 - service.opencontrail.compute.cluster
+- system.linux.system.repo.tcp_base
 - cluster.mk22_lab_advanced
 parameters:
   _param:
